@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background-image {
+    background-image: url('./HD-wallpaper-the-sun-is-down-in-the-sky-is-sky-sun-down.jpg');
+    background-size: cover; 
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+}
+
+
+
+.login {
+    width: 550px; 
+    padding: 40px;
+    border: 2px solid #ccc; 
+    background-color: rgba(255, 255, 255, 0.9); 
+    text-align: center;
+    margin-top: 10px;
+    height: 510px; 
+}
+
+.login h1 {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.login input[type="text"], .login input[type="password"] {
+    width: 500px;
+    padding: 5px 0; 
+    border: none;
+    border-bottom: 1px solid #ccc; 
+    background-color: transparent; 
+    outline: none; 
+}
+
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    
+}
+
+.remember-me label {
+    flex: 1; 
+}
+
+.login button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login h2 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.login ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.login li {
+    margin: 10px;
+}
+
+
+.fa {
+    font-size: 24px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+
+
+.signup {
+    width: 550px; 
+    padding: 40px;
+    border: 2px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    margin-top: -598px;
+    float: right; 
+    margin-left: 820px; 
+    height: 510px;
+}
+
+
+.signup h1 {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.signup input[type="text"], .signup input[type="password"] {
+    width: 500px;
+    padding: 5px 0;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+    outline: none;
+}
+
+.signup button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.signup h2 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.signup ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.signup li {
+    margin: 10px;
+}
+
+.fa {
+    font-size: 24px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+
+@media screen and (max-width: 768px) {
+    .login, .signup {
+        width: 90%; /* Adjust as needed for smaller screens */
+        margin: 10px auto; /* Center the forms horizontally */
+        padding: 20px;
+        height: auto; /* Allow forms to grow with content */
+    }
+
+    .login input[type="text"], .login input[type="password"],
+    .signup input[type="text"], .signup input[type="password"] {
+        width: 100%;
+    }
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
